@@ -7,7 +7,9 @@ export class App {
   constructor(port = 8080) {
     this.app = express();
     this.port = port || process.env.PORT;
+    this.settings();
     this.middlewares();
+    this.routes();
   }
   private settings(): void {
     this.app.set("port", this.port);
