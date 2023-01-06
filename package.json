@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "license": "ISC",
   "author": "Franco",
-  "description": "A template of Node.js with TypeScript",
+  "description": "A TypeScript Skeleton for API building with Express.js",
   "keywords": [
     "node",
     "typescript"
